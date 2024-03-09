@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Gallery</title>
+            <style>
+                .img_grid{
+                    display: grid;
+                    height: 200px;
+                    width: 300px;
+
+                }
+                .grid-output{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
+                body{background-color:rgb(204, 210, 214);} 
+
+            </style>
+        </head>
+        <body>
+            <div class=grid-output>
+                <div>
+            <img  class=img_grid id="A1" src="Pictures/nature.jfif" alt="Nature pic">
+                </div>
+                <div>
+            <img  class=img_grid id="A2" src="./Pictures/Sunset.jfif" alt="Sunset">
+                </div>
+                <div>
+            <img  class=img_grid id="A3" src="./Pictures/water_fall.jfif" alt="Waterfall">
+                </div>
+                <div>
+            <img  class=img_grid id="A4" src="./Pictures/OIP.jfif">
+                </div>
+            </div>
+        </body>
+    </html>
